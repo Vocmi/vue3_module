@@ -14,3 +14,29 @@ export interface loginResponseData {
   data: dataType;
 }
 
+//发送验证码携带的信息
+export interface registSendCode {
+  username: string;
+  email: string;
+}
+
+//注册接口携带参数
+export interface registForm {
+  username: string;
+  password: string;
+  email: string;
+  code: string;
+}
+
+//发送邮箱接口携带参数
+export interface sendEmail {
+  email: string;
+}
+
+//重置接口携带参数
+export interface resetForm {
+  password: string,
+  email: string,
+  code: string,
+}
+

@@ -1,35 +1,35 @@
 {
-    "name": "shihu_user",
-    "private": true,
-    "version": "0.0.0",
-    "type": "module",
-    "scripts": {
-      "dev": "vite --open",
-      "build": "vue-tsc && vite build",
-      "preview": "vite preview",
-      "build:test": "vue-tsc && vite build --mode test",
-      "build:pro": "vue-tsc && vite build --mode production",
-      "preinstalled": "node ./scripts/preinstalled.js"
-    },
-    "dependencies": {
-      "@element-plus/icons-vue": "^2.3.1",
-      "axios": "^1.7.2",
-      "element-plus": "^2.7.5",
-      "fast-glob": "^3.3.2",
-      "nprogress": "^0.2.0",
-      "pinia": "^2.1.7",
-      "progress": "^2.0.3",
-      "vue": "^3.4.21",
-      "vue-router": "^4.3.3"
-    },
-    "devDependencies": {
-      "@vitejs/plugin-vue": "^5.0.4",
-      "sass": "^1.77.5",
-      "scss": "^0.2.4",
-      "typescript": "^5.2.2",
-      "vite": "^5.2.0",
-      "vite-plugin-svg-icons": "^2.0.1",
-      "vue-tsc": "^2.0.6"
-    }
+  "name": "shihu_user",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite --open",
+    "build": "vue-tsc && vite build",
+    "preview": "vite preview",
+    "build:test": "vue-tsc && vite build --mode test",
+    "build:pro": "vue-tsc && vite build --mode production",
+    "preinstalled": "node ./scripts/preinstalled.js"
+  },
+  "dependencies": {
+    "@element-plus/icons-vue": "^2.3.1",
+    "@vueuse/core": "^10.11.0",
+    "axios": "^1.7.2",
+    "element-plus": "^2.7.5",
+    "fast-glob": "^3.3.2",
+    "nprogress": "^0.2.0",
+    "pinia": "^2.1.7",
+    "progress": "^2.0.3",
+    "vue": "^3.4.21",
+    "vue-router": "^4.3.3"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "^5.0.4",
+    "sass": "^1.77.5",
+    "scss": "^0.2.4",
+    "typescript": "^5.2.2",
+    "vite": "^5.2.0",
+    "vite-plugin-svg-icons": "^2.0.1",
+    "vue-tsc": "^2.0.6"
   }
-  
+}
